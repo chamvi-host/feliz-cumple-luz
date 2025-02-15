@@ -3,14 +3,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; /* Fondo claro para una apariencia limpia */
+    background-color: #ffe6f2; /* Fondo rosa claro para una apariencia femenina */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     overflow: hidden;
     position: relative;
-    color: #333; /* Texto oscuro para contraste */
+    color: #6a1b9a; /* Color púrpura para el texto */
 }
 
 .container {
@@ -26,15 +26,15 @@ body {
 }
 
 h1 {
-    color: #333; /* Texto oscuro */
+    color: #d81b60; /* Rosa fuerte */
     font-size: 3em;
     margin: 0;
     font-weight: bold;
-    text-shadow: 2px 2px #ccc; /* Sombra sutil */
+    text-shadow: 2px 2px #f8bbd0; /* Sombra sutil en rosa claro */
 }
 
 p {
-    color: #666; /* Gris oscuro */
+    color: #9c27b0; /* Púrpura medio */
     font-size: 1.2em;
     margin: 15px 0;
 }
@@ -45,7 +45,7 @@ textarea {
     max-width: calc(100% - 20px);
     padding: 10px;
     margin-top: 10px;
-    border: 2px solid #007BFF; /* Azul HTML */
+    border: 2px solid #d81b60; /* Rosa fuerte */
     border-radius: 5px;
     font-size: 1.1em;
     resize: none;
@@ -57,7 +57,7 @@ button {
     padding: 12px 24px;
     font-size: 1.1em;
     color: #fff;
-    background-color: #007BFF; /* Azul HTML */
+    background-color: #d81b60; /* Rosa fuerte */
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -67,7 +67,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3; /* Azul más oscuro al pasar el cursor */
+    background-color: #ad1457; /* Rosa oscuro al pasar el cursor */
     transform: scale(1.1);
 }
 
@@ -81,7 +81,7 @@ button:hover {
     overflow: hidden;
     pointer-events: none;
     z-index: 0;
-    background-image: url('html-background.jpg'); /* Imagen de fondo HTML */
+    background-image: url('fondo-femenino.jpg'); /* Imagen de fondo femenina */
     background-size: cover;
     background-position: center;
 }
@@ -89,7 +89,7 @@ button:hover {
 /* Cambiar imagen de fondo en pantallas pequeñas (móviles) */
 @media screen and (max-width: 768px) {
     .decoraciones {
-        background-image: url('html-background-mobile.jpg'); /* Fondo adaptado para móvil */
+        background-image: url('fondo-femenino-mobile.jpg'); /* Fondo adaptado para móvil */
         background-size: cover;
         background-position: center;
     }
